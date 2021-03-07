@@ -1,0 +1,61 @@
+.AddContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+}
+
+.Form {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.InputField {
+    width: 33%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #E9D6F4;
+}
+
+.FilePicker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10px;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+}
+
+.AddButton {
+    width: 144px;
+    height: 50px;
+    background: rgb(10, 99, 233);
+    border: 1px solid #E9D6F4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.NotAllowedWrapper {
+    cursor: not-allowed;
+}
+
+.NotAllowed {
+    pointer-events: none;
+}
+
+.Allowed {
+    cursor: pointer;
+}
+
+.Uploading {
+    width: 200px;
+    height: 200px;
+}
